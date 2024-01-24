@@ -1,0 +1,351 @@
+@media only screen and (max-width: 1000px) {
+  #hide-ss {
+    display: none;
+  }
+  #sliderid-2 {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+}
+.slider-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 20rem;
+  border: 2cap;
+  margin: auto;
+  display: block;
+  padding: 30px;
+}
+.section1-left {
+  margin-top: 150px;
+}
+.nav-icon-size {
+  width: 50px;
+  cursor: pointer;
+}
+.navbar-flex {
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+.nav-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  --tw-space-x-reverse: 0;
+}
+.nav-items-space > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(4rem * var(--tw-space-x-reverse));
+  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.nav-buttons:hover {
+  border-bottom: 2px solid rgb(30, 57, 77);
+}
+.nav-button {
+  background-color: rgb(29, 43, 54);
+  color: white;
+  border-radius: 0.2rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.nav-home-button {
+  border-bottom: 2px solid rgb(30, 57, 77);
+}
+@media only screen and (min-width: 1000px) {
+  .section1-area {
+    display: flex;
+    float: right;
+  }
+  .section1-left {
+    width: 50%;
+  }
+  .section1-right {
+    width: 50%;
+  }
+  #sliderid {
+    display: none;
+  }
+  .section3-bg {
+    display: flex;
+    float: right;
+    height: 980px;
+    margin-bottom: 200px;
+  }
+  .section6-flex {
+    display: flex;
+    float: left;
+    margin: auto;
+  }
+
+  .section4-flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+}
+.section1-area {
+  background-color: rgb(29, 43, 54);
+  width: 100%;
+  height: fit-content;
+}
+.section1-button {
+  background-color: rgb(172, 108, 26);
+}
+
+/* section 3 */
+.section3-bg {
+  margin-top: 80px;
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(172, 108, 26);
+}
+.section3-left {
+  margin-top: 60px;
+  padding: 20px 20px;
+}
+.section3-right {
+  margin-top: 40px;
+  padding: 20px 20px;
+}
+.section3-img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  padding: 20px 20px;
+  height: 50px;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 10px !important;
+  margin: auto;
+}
+.enrollnow-button {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  color: white;
+  background-color: rgb(172, 108, 26);
+  border-width: 2px;
+  border-color: white;
+  padding: 10px 100px;
+  display: block;
+  margin: auto;
+  margin-top: 45px !important;
+}
+.center-text {
+  text-align: center;
+}
+.center-button {
+  display: block;
+  margin: auto;
+}
+.section4-bg {
+  background-color: rgb(65, 97, 116);
+  width: 100%;
+  height: auto;
+}
+.text-white {
+  color: white;
+}
+.section4-button {
+  cursor: pointer;
+  background-color: rgb(65, 97, 116);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 0.2rem;
+  border-width: 2px;
+  border-color: white;
+}
+.section4-left {
+  margin-top: 30px;
+  flex: 1;
+}
+.section4-right {
+  margin: 50px 0px;
+  flex: 1;
+}
+.under-slider-img {
+  width: 90%;
+  height: 60%;
+  border-radius: 20px;
+}
+.under-slider {
+  display: flex;
+  float: right;
+  margin: 30px 30px;
+}
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+.section2-box {
+  margin: 10px 10px;
+  padding: 10px 20px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 0.4rem;
+  border-width: 2px;
+}
+.section6-bg {
+  background-color: #f4d192;
+  width: auto;
+  height: 100px;
+}
+.section6-right {
+  display: flex;
+  float: left;
+}
+.section6-email {
+  background-color: rgba(172, 108, 26, 255);
+  color: white;
+  padding: 7px 20px;
+}
+.upper-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+.upper-footer-col {
+  margin-left: 50px;
+}
+.footer-bg {
+  background-color: rgb(12, 44, 68);
+  width: auto;
+  height: 80px;
+}
+.footerlogo-size {
+  width: 80px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(244, 212, 148);
+}
+
+.left {
+  margin-top: 30px;
+  background-color: rgb(244, 212, 148);
+  /* height: auto; */
+  flex: 1;
+}
+
+.right {
+  background-color: rgb(244, 212, 148);
+  flex: 1;
+  margin: 50px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+  background-color: #f5f5f5;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+.card-button {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border-color: orange;
+  padding: 5px 40px;
+}
+.card-button-hover:hover {
+  background-color: rgb(172, 108, 26);
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
+.onhover-colorwhite:hover {
+  color: white;
+}
+.cardhover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card-info-hover:hover {
+  cursor: pointer;
+  color: royalblue;
+}
+.gfg {
+  position: relative;
+}
+.first-txt {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  backdrop-filter: brightness(100%);
+}
+.text-start {
+  text-align: start;
+}
+.heading-color {
+  color: rgb(27, 55, 77);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.text-color {
+  color: #414040;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
