@@ -1,2 +1,2 @@
 # Meshal.pk-
-Cloned Meshal.pk Landing page using HTML CSS
+This repository contains a cloned landing page of a Meshal.pk created using HTML and CSS. The project aims to replicate the visual design and layout of the original website's landing page. By leveraging HTML for structure and CSS for styling, this clone serves as a learning exercise in web development and front-end design. Explore the code to gain insights into responsive design, layout structuring, and styling techniques.
